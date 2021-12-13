@@ -7,12 +7,14 @@
   background-color: transparent;
 }
 
+/* ========== NAV Bar ========== */
+
 li,
 a {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 16px;
-  color: rgb(0, 0, 0);
+  color: rgb(216, 41, 149);
   text-decoration: none;
 }
 
@@ -43,6 +45,8 @@ header {
 .nav_links li a:hover {
   color: rgb(192, 171, 224);
 }
+
+/*========= MAIN Section =========== */
 
 .main {
   background-color: rgba(91, 114, 243, 0.712);
@@ -91,4 +95,63 @@ header {
   margin-left: 35%;
   max-height: 900px;
   margin-bottom: -20%;
+}
+
+/*======== FEATURES Section ========*/
+.feature {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+
+.feature-h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 35px;
+  margin-top: 7%;
+  text-align: center;
+  color: rgb(216, 41, 149);
+}
+
+.feature-h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  margin-top: 1%;
+  text-align: center;
+  color: rgb(216, 41, 149);
+}
+
+.box-container {
+  margin-top: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 1%;
+}
+
+.box {
+  margin: 10px 10px;
+  width: calc(100% / 3 - 20px);
+  text-align: center;
+  border-radius: 20px;
+  padding: 30px 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+  cursor: default;
+  transition: all 0.4s ease;
+}
+
+.box-text {
+  color: rgb(216, 41, 149);
+  font-weight: 500;
+  margin-top: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.feat-icon {
+  color: rgb(216, 41, 149);
+}
+
+.feat-pic {
+  margin-top: 5%;
+  max-height: 230px;
 }
