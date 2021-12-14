@@ -49,7 +49,7 @@ header {
 /*========= MAIN Section =========== */
 
 .main {
-  background-color: rgba(91, 114, 243, 0.712);
+  background-color: rgba(67, 236, 61, 0.993);
   background-image: url(src/wave.svg);
   background-position: center bottom;
   background-size: 100%;
@@ -99,7 +99,7 @@ header {
 
 /*======== FEATURES Section ========*/
 .feature {
-  margin-left: 10%;
+  margin-left: 48%;
   margin-right: 10%;
   margin-bottom: 5%;
 }
@@ -107,7 +107,7 @@ header {
 .feature-h1 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 35px;
-  margin-top: 7%;
+  margin-top: 24%;
   text-align: center;
   color: rgb(216, 41, 149);
 }
@@ -120,6 +120,10 @@ header {
   color: rgb(216, 41, 149);
 }
 
+.feat-right {
+  float: right;
+}
+
 .box-container {
   margin-top: 2%;
   display: flex;
@@ -129,11 +133,12 @@ header {
 }
 
 .box {
-  margin: 10px 10px;
-  width: calc(100% / 3 - 20px);
+  background-image: url("https://cdn.discordapp.com/attachments/883246961615056919/920157289065889832/maxresdefault.png");
+  margin: 12px 10px;
+  width: calc(96% / 2 - 5px);
   text-align: center;
   border-radius: 20px;
-  padding: 30px 10px;
+  padding: 20px 20px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
   cursor: default;
   transition: all 0.4s ease;
@@ -152,6 +157,9 @@ header {
 }
 
 .feat-pic {
-  margin-top: 5%;
-  max-height: 230px;
+  margin-top: 0%;
+  margin-left: 10%;
+  margin-right: 10%;
+  max-height: 850px;
+  border-radius: 20%;
 }
