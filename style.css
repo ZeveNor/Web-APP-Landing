@@ -501,6 +501,16 @@ header {
   }
 }
 
+.to-download {
+  width: auto;
+  height: 800px;
+}
+
+.info-sub {
+  height: 95vh;
+  text-align: center;
+}
+
 .box-2 {
   align-items: center;
   margin: 2px 1px;
