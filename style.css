@@ -519,11 +519,6 @@ header {
   margin-bottom: 3vh;
   text-align: center;
 }
-@media (min-width: 550px) {
-  .info-sub {
-    height: 95vh;
-  }
-}
 
 .box-2 {
   align-items: center;
