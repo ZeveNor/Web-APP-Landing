@@ -503,12 +503,24 @@ header {
 
 .to-download {
   width: auto;
-  height: 800px;
+  height: 340px;
+}
+
+@media (min-width: 550px) {
+  .to-download {
+    width: auto;
+    height: 800px;
+  }
 }
 
 .info-sub {
-  height: 95vh;
+  height: 50vh;
   text-align: center;
+}
+@media (min-width: 550px) {
+  .info-sub {
+    height: 95vh;
+  }
 }
 
 .box-2 {
